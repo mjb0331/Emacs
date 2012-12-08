@@ -1,0 +1,2345 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA5ILGjtOY=?=
+Subject: =?gb2312?B?Y2MgbW9kZSDA77nY09ppbmRlbnQoy/W9+Cm1xL/Y1sY=?=
+Date: Sat, 8 Dec 2012 23:13:51 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CDD599.AFC888C0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CDD599.AFC888C0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://jixiuf.github.com/emacs/cc-indent.html
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" =
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><HTML=20
+lang=3D"zh" xml:lang=3D"zh" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>cc=20
+mode =
+=E9=87=8C=E5=85=B3=E4=BA=8Eindent(=E7=BC=A9=E8=BF=9B)=E7=9A=84=E6=8E=A7=E5=
+=88=B6</TITLE>
+<META content=3D"text/html;charset=3Dutf-8" http-equiv=3D"Content-Type">
+<META name=3D"title" content=3D"cc mode =
+=E9=87=8C=E5=85=B3=E4=BA=8Eindent(=E7=BC=A9=E8=BF=9B)=E7=9A=84=E6=8E=A7=E5=
+=88=B6">
+<META name=3D"GENERATOR" content=3D"MSHTML 9.00.8112.16455">
+<META name=3D"generated" content=3D"2011-11-20 =E6=97=A5">
+<META name=3D"author" content=3D"=E7=BA=AA=E7=A7=80=E5=B3=B0">
+<META name=3D"description" content=3D"cc mode =
+=E9=87=8C=E5=85=B3=E4=BA=8Eindent(=E7=BC=A9=E8=BF=9B)=E7=9A=84=E6=8E=A7=E5=
+=88=B6">
+<META name=3D"keywords" content=3D"cc indent emacs">
+<STYLE type=3D"text/css">=0A=
+       body {=0A=
+    background-color: #E5E5E5;=0A=
+	scrollbar-face-color: #DEE3E7;=0A=
+	scrollbar-highlight-color: #FFFFFF;=0A=
+	scrollbar-shadow-color: #DEE3E7;=0A=
+	scrollbar-3dlight-color: #D1D7DC;=0A=
+	scrollbar-arrow-color:  #006699;=0A=
+	scrollbar-track-color: #EFEFEF;=0A=
+	scrollbar-darkshadow-color: #98AAB1;=0A=
+    /* background-color: #999966;  */=0A=
+    margin: 0em;=0A=
+}=0A=
+=0A=
+h1 {=0A=
+    font-size: 2.0em;=0A=
+    margin-top: 1.0em;=0A=
+    margin-bottom: 0.3em;=0A=
+}=0A=
+h2 {=0A=
+    font-size: 1.5em;=0A=
+    margin-top: 2.4em;=0A=
+    margin-bottom: 0.3em;=0A=
+}=0A=
+h3 {=0A=
+    font-size: 1.25em;=0A=
+    margin-top: 1.25em;=0A=
+    margin-bottom: 0.3em;=0A=
+}=0A=
+=0A=
+=0A=
+div#content {=0A=
+    font-family: Times, serif;=0A=
+    border-left: double #333300 3mm;=0A=
+    border-right: double #333300 3mm;=0A=
+    letter-spacing: 0.075em;=0A=
+    line-height: 1.4;=0A=
+    margin: 0em auto;=0A=
+    padding: 2em;=0A=
+    width: 92%;=0A=
+    height:100%; =0A=
+    min-height:600px;           /*firefox do'nt support height:100% ,so*/=0A=
+ =0A=
+}=0A=
+/* #table-of-contents { */=0A=
+/* 	font-size: 75%; */=0A=
+/* 	line-height: 1.4em; */=0A=
+/* 	position: fixed; */=0A=
+/* 	display: block; */=0A=
+/* 	left: -20px; */=0A=
+/* 	top: 5%; */=0A=
+/* 	width: 250px; */=0A=
+/* 	min-height:60px; */=0A=
+/* 	max-height:95%; */=0A=
+/* 	overflow:hidden; */=0A=
+/*     white-space:nowrap; */=0A=
+/* } */=0A=
+=0A=
+#org-div-home-and-up{=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+	right: 18px;=0A=
+	top: 5px;=0A=
+	overflow:auto;=0A=
+    }=0A=
+#org-src{=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+	right: 18px;=0A=
+	top: 20px;=0A=
+	overflow:hidden;=0A=
+    }=0A=
+#htmlized-src{=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+	right: 54px;=0A=
+	top: 20px;=0A=
+	overflow:hidden;=0A=
+    }=0A=
+#table-of-contents h2 {=0A=
+	display:none;=0A=
+}=0A=
+=0A=
+#logo-text{=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+	right: 16px;=0A=
+	bottom: 3px;=0A=
+	overflow:hidden;=0A=
+}=0A=
+#logo-img{=0A=
+    font-size: 60%;=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+    left: 16px;=0A=
+	top: 3px;=0A=
+    }=0A=
+div#tags {=0A=
+	font-size: 75%;=0A=
+    text-align:right;=0A=
+	/* line-height: 1.4em; */=0A=
+	position: fixed;=0A=
+	display: block;=0A=
+	right: 40px;=0A=
+	top: 20%;=0A=
+	width: 90px;=0A=
+	/* min-height:60px; */=0A=
+	max-height:95%;=0A=
+	/* overflow:visible; */=0A=
+    /* white-space:pre-wrap; */=0A=
+}=0A=
+=0A=
+.title {=0A=
+    text-align:center;=0A=
+	padding-bottom: 7px;=0A=
+	margin-bottom: 20px;=0A=
+	border-bottom: 1px solid #222;=0A=
+}=0A=
+ a:link,a:active,a:visited { color : #006699; } =0A=
+ a:hover		{ text-decoration: underline; color : #DD6900; } =0A=
+=0A=
+.todo {color: #990000;}=0A=
+.done {color: #006666;}=0A=
+.timestamp-kwd {color: #444;}=0A=
+.tag {color: #DDD; font-size: 70%; font-weight: 500;}=0A=
+=0A=
+table {border: none;=0A=
+       width:90%;=0A=
+      }=0A=
+th	{=0A=
+	background-color: #006699; =0A=
+}=0A=
+td	{=0A=
+    padding: .1em .7em .1em .3em;=0A=
+	background-color: Gainsboro=0A=
+}=0A=
+=0A=
+=0A=
+code {=0A=
+font-family: Andale Mono, Courier New, Courier, sans-serif; font-size: =
+12px; line-height: 14px; color: #0000A0;=0A=
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;=0A=
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; =
+border-bottom-width: 1px=0A=
+}=0A=
+=0A=
+/* pre { */=0A=
+/* 	border: 1px solid #555; */=0A=
+/* 	background: #EEEEEE; */=0A=
+/* 	font-size: 9pt; */=0A=
+/* 	padding: 1em; */=0A=
+/* } */=0A=
+pre.src {=0A=
+	border: 1px solid #555;=0A=
+	background:#0c1021;=0A=
+    /* background:#263111; */=0A=
+    color: #f7f8c6;=0A=
+	font-size: 10pt;=0A=
+    width:85%;=0A=
+	padding: 0em;=0A=
+	margin: 0;=0A=
+	width: 700px;=0A=
+	float: none;=0A=
+	clear: none;=0A=
+	line-height: 1.333;=0A=
+	text-align:left;=0A=
+    =0A=
+    /* overflow: scroll; */=0A=
+    max-height:500px;           /*IEXPLORE  don't support max-height*/=0A=
+    _height:expression(this.scrollHeight > 300 ? "300px" : "auto");=0A=
+    min-height:50px;=0A=
+    max-width:700px;=0A=
+    min-width:700px;=0A=
+    overflow-x:auto;=0A=
+    overflow-y:auto;=0A=
+}=0A=
+blockquote {=0A=
+	 border: #D1D7DC;=0A=
+     border-style: solid;=0A=
+	border-left-width: 1px;=0A=
+    border-top-width: 1px;=0A=
+    border-right-width: 1px;=0A=
+    border-bottom-width: 1px=0A=
+    =0A=
+    color: #444444;=0A=
+    line-height: 125%;=0A=
+	border: 1px solid #555;=0A=
+    background-color: #FAFAFA;    =0A=
+    width:95%;=0A=
+	padding: 1em;=0A=
+	margin: 0;=0A=
+	float: none;=0A=
+	clear: none;=0A=
+	text-align:left;=0A=
+    font-style:italic;=0A=
+    =0A=
+    /* overflow: scroll; */=0A=
+    max-height:300px;           /*IEXPLORE  don't support max-height*/=0A=
+    _height:expression(this.scrollHeight > 300 ? "300px" : "auto");=0A=
+    min-height:20px;=0A=
+    max-width:700px;=0A=
+    min-width:700px;=0A=
+    overflow-x:auto;=0A=
+    overflow-y:auto;=0A=
+}=0A=
+=0A=
+.org-function-name {=0A=
+    /* font-lock-function-name-face */=0A=
+    /* color: #0000ff; */=0A=
+     color: #87cefa;=0A=
+     font-stretch: normal;=0A=
+     text-decoration: none;=0A=
+}=0A=
+=0A=
+.org-keyword {=0A=
+    /* font-lock-keyword-face */=0A=
+    color: #00ffff;=0A=
+    text-decoration: none;=0A=
+    /* color: #a020f0; */=0A=
+}=0A=
+.org-doc=0A=
+ { color: #ffa07a;=0A=
+   text-decoration: none;=0A=
+ }=0A=
+p.author{=0A=
+    font-size:80%;=0A=
+    color:#556b2f;=0A=
+    font-style:italic;=0A=
+    position:fixed;=0A=
+    left:10px;=0A=
+    bottom:40px;=0A=
+}=0A=
+p.date{=0A=
+    font-size:80%;=0A=
+    color:#556b2f;=0A=
+    font-style:italic;=0A=
+    position:fixed;=0A=
+    left:10px;=0A=
+    bottom:0px;=0A=
+}=0A=
+p.creator{=0A=
+    font-size:80%;=0A=
+    color:#556b2f;=0A=
+    font-style:italic;=0A=
+    position:fixed;=0A=
+    left:10px;=0A=
+    bottom:20px;=0A=
+}=0A=
+=0A=
+img {=0A=
+    display:inline;=0A=
+	border: none;=0A=
+    float:none;=0A=
+    clear:none;=0A=
+    left:10px;=0A=
+}=0A=
+=0A=
+.share img {=0A=
+	opacity: .4;=0A=
+	-moz-opacity: .4;=0A=
+	filter: alpha(opacity=3D40);=0A=
+}=0A=
+=0A=
+.share img:hover {=0A=
+	opacity: 1;=0A=
+	-moz-opacity: 1;=0A=
+	filter: alpha(opacity=3D100);=0A=
+}=0A=
+=0A=
+.org-info-search-highlight=0A=
+{=0A=
+	background-color:#adefef; /* same color as emacs default */=0A=
+	color:#000000;=0A=
+	font-weight:bold;=0A=
+}=0A=
+=0A=
+.org-bbdb-company {=0A=
+    /* bbdb-company */=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-bbdb-field-name {=0A=
+}=0A=
+.org-bbdb-field-value {=0A=
+}=0A=
+.org-bbdb-name {=0A=
+    /* bbdb-name */=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-bold {=0A=
+    /* bold */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-bold-italic {=0A=
+    /* bold-italic */=0A=
+    font-weight: bold;=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-border {=0A=
+    /* border */=0A=
+    background-color: #000000;=0A=
+}=0A=
+.org-buffer-menu-buffer {=0A=
+    /* buffer-menu-buffer */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-builtin {=0A=
+    /* font-lock-builtin-face */=0A=
+    color: #da70d6;=0A=
+}=0A=
+.org-button {=0A=
+    /* button */=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-c-nonbreakable-space {=0A=
+    /* c-nonbreakable-space-face */=0A=
+    background-color: #ff0000;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-calendar-today {=0A=
+    /* calendar-today */=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-comment {=0A=
+    /* font-lock-comment-face */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-comment-delimiter {=0A=
+    /* font-lock-comment-delimiter-face */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-constant {=0A=
+    /* font-lock-constant-face */=0A=
+    color: #5f9ea0;=0A=
+}=0A=
+.org-cursor {=0A=
+    /* cursor */=0A=
+    background-color: #000000;=0A=
+}=0A=
+.org-default {=0A=
+    /* default */=0A=
+    color: #000000;=0A=
+    background-color: #ffffff;=0A=
+}=0A=
+.org-diary {=0A=
+    /* diary */=0A=
+    color: #ff0000;=0A=
+}=0A=
+.org-escape-glyph {=0A=
+    /* escape-glyph */=0A=
+    color: #a52a2a;=0A=
+}=0A=
+.org-file-name-shadow {=0A=
+    /* file-name-shadow */=0A=
+    color: #7f7f7f;=0A=
+}=0A=
+.org-fixed-pitch {=0A=
+}=0A=
+.org-fringe {=0A=
+    /* fringe */=0A=
+    background-color: #f2f2f2;=0A=
+}=0A=
+.org-header-line {=0A=
+    /* header-line */=0A=
+    color: #333333;=0A=
+    background-color: #e5e5e5;=0A=
+}=0A=
+.org-help-argument-name {=0A=
+    /* help-argument-name */=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-highlight {=0A=
+    /* highlight */=0A=
+    background-color: #b4eeb4;=0A=
+}=0A=
+.org-holiday {=0A=
+    /* holiday */=0A=
+    background-color: #ffc0cb;=0A=
+}=0A=
+.org-info-header-node {=0A=
+    /* info-header-node */=0A=
+    color: #a52a2a;=0A=
+    font-weight: bold;=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-info-header-xref {=0A=
+    /* info-header-xref */=0A=
+    color: #0000ff;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-info-menu-header {=0A=
+    /* info-menu-header */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-info-menu-star {=0A=
+    /* info-menu-star */=0A=
+    color: #ff0000;=0A=
+}=0A=
+.org-info-node {=0A=
+    /* info-node */=0A=
+    color: #a52a2a;=0A=
+    font-weight: bold;=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-info-title-1 {=0A=
+    /* info-title-1 */=0A=
+    font-size: 172%;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-info-title-2 {=0A=
+    /* info-title-2 */=0A=
+    font-size: 144%;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-info-title-3 {=0A=
+    /* info-title-3 */=0A=
+    font-size: 120%;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-info-title-4 {=0A=
+    /* info-title-4 */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-info-xref {=0A=
+    /* info-xref */=0A=
+    color: #0000ff;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-isearch {=0A=
+    /* isearch */=0A=
+    color: #b0e2ff;=0A=
+    background-color: #cd00cd;=0A=
+}=0A=
+.org-italic {=0A=
+    /* italic */=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-lazy-highlight {=0A=
+    /* lazy-highlight */=0A=
+    background-color: #afeeee;=0A=
+}=0A=
+.org-link {=0A=
+    /* link */=0A=
+    color: #0000ff;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-link-visited {=0A=
+    /* link-visited */=0A=
+    color: #8b008b;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-match {=0A=
+    /* match */=0A=
+    background-color: #ffff00;=0A=
+}=0A=
+.org-menu {=0A=
+}=0A=
+.org-message-cited-text {=0A=
+    /* message-cited-text */=0A=
+    color: #ff0000;=0A=
+}=0A=
+.org-message-header-cc {=0A=
+    /* message-header-cc */=0A=
+    color: #191970;=0A=
+}=0A=
+.org-message-header-name {=0A=
+    /* message-header-name */=0A=
+    color: #6495ed;=0A=
+}=0A=
+.org-message-header-newsgroups {=0A=
+    /* message-header-newsgroups */=0A=
+    color: #00008b;=0A=
+    font-weight: bold;=0A=
+    font-style: italic;=0A=
+}=0A=
+.org-message-header-other {=0A=
+    /* message-header-other */=0A=
+    color: #4682b4;=0A=
+}=0A=
+.org-message-header-subject {=0A=
+    /* message-header-subject */=0A=
+    color: #000080;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-message-header-to {=0A=
+    /* message-header-to */=0A=
+    color: #191970;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-message-header-xheader {=0A=
+    /* message-header-xheader */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-message-mml {=0A=
+    /* message-mml */=0A=
+    color: #228b22;=0A=
+}=0A=
+.org-message-separator {=0A=
+    /* message-separator */=0A=
+    color: #a52a2a;=0A=
+}=0A=
+.org-minibuffer-prompt {=0A=
+    /* minibuffer-prompt */=0A=
+    color: #0000cd;=0A=
+}=0A=
+.org-mm-uu-extract {=0A=
+    /* mm-uu-extract */=0A=
+    color: #006400;=0A=
+    background-color: #ffffe0;=0A=
+}=0A=
+.org-mode-line {=0A=
+    /* mode-line */=0A=
+    color: #000000;=0A=
+    background-color: #bfbfbf;=0A=
+}=0A=
+.org-mode-line-buffer-id {=0A=
+    /* mode-line-buffer-id */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-mode-line-highlight {=0A=
+}=0A=
+.org-mode-line-inactive {=0A=
+    /* mode-line-inactive */=0A=
+    color: #333333;=0A=
+    background-color: #e5e5e5;=0A=
+}=0A=
+.org-mouse {=0A=
+    /* mouse */=0A=
+    background-color: #000000;=0A=
+}=0A=
+.org-negation-char {=0A=
+}=0A=
+.org-next-error {=0A=
+    /* next-error */=0A=
+    background-color: #eedc82;=0A=
+}=0A=
+.org-nobreak-space {=0A=
+    /* nobreak-space */=0A=
+    color: #a52a2a;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-agenda-date {=0A=
+    /* org-agenda-date */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-org-agenda-date-weekend {=0A=
+    /* org-agenda-date-weekend */=0A=
+    color: #0000ff;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-org-agenda-restriction-lock {=0A=
+    /* org-agenda-restriction-lock */=0A=
+    background-color: #ffff00;=0A=
+}=0A=
+.org-org-agenda-structure {=0A=
+    /* org-agenda-structure */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-org-archived {=0A=
+    /* org-archived */=0A=
+    color: #7f7f7f;=0A=
+}=0A=
+.org-org-code {=0A=
+    /* org-code */=0A=
+    color: #7f7f7f;=0A=
+}=0A=
+.org-org-column {=0A=
+    /* org-column */=0A=
+    background-color: #e5e5e5;=0A=
+}=0A=
+.org-org-column-title {=0A=
+    /* org-column-title */=0A=
+    background-color: #e5e5e5;=0A=
+    font-weight: bold;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-date {=0A=
+    /* org-date */=0A=
+    color: #a020f0;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-done {=0A=
+    /* org-done */=0A=
+    color: #228b22;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-org-drawer {=0A=
+    /* org-drawer */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-org-ellipsis {=0A=
+    /* org-ellipsis */=0A=
+    color: #b8860b;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-formula {=0A=
+    /* org-formula */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-org-headline-done {=0A=
+    /* org-headline-done */=0A=
+    color: #bc8f8f;=0A=
+}=0A=
+.org-org-hide {=0A=
+    /* org-hide */=0A=
+    color: #e5e5e5;=0A=
+}=0A=
+.org-org-latex-and-export-specials {=0A=
+    /* org-latex-and-export-specials */=0A=
+    color: #8b4513;=0A=
+}=0A=
+.org-org-level-1 {=0A=
+    /* org-level-1 */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-org-level-2 {=0A=
+    /* org-level-2 */=0A=
+    color: #b8860b;=0A=
+}=0A=
+.org-org-level-3 {=0A=
+    /* org-level-3 */=0A=
+    color: #a020f0;=0A=
+}=0A=
+.org-org-level-4 {=0A=
+    /* org-level-4 */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-org-level-5 {=0A=
+    /* org-level-5 */=0A=
+    color: #228b22;=0A=
+}=0A=
+.org-org-level-6 {=0A=
+    /* org-level-6 */=0A=
+    color: #5f9ea0;=0A=
+}=0A=
+.org-org-level-7 {=0A=
+    /* org-level-7 */=0A=
+    color: #da70d6;=0A=
+}=0A=
+.org-org-level-8 {=0A=
+    /* org-level-8 */=0A=
+    color: #bc8f8f;=0A=
+}=0A=
+.org-org-link {=0A=
+    /* org-link */=0A=
+    color: #a020f0;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-property-value {=0A=
+}=0A=
+.org-org-scheduled-previously {=0A=
+    /* org-scheduled-previously */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-org-scheduled-today {=0A=
+    /* org-scheduled-today */=0A=
+    color: #006400;=0A=
+}=0A=
+.org-org-sexp-date {=0A=
+    /* org-sexp-date */=0A=
+    color: #a020f0;=0A=
+}=0A=
+.org-org-special-keyword {=0A=
+    /* org-special-keyword */=0A=
+    color: #bc8f8f;=0A=
+}=0A=
+.org-org-table {=0A=
+    /* org-table */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-org-tag {=0A=
+    /* org-tag */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-org-target {=0A=
+    /* org-target */=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-time-grid {=0A=
+    /* org-time-grid */=0A=
+    color: #b8860b;=0A=
+}=0A=
+.org-org-todo {=0A=
+    /* org-todo */=0A=
+    color: #ff0000;=0A=
+}=0A=
+.org-org-upcoming-deadline {=0A=
+    /* org-upcoming-deadline */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-org-verbatim {=0A=
+    /* org-verbatim */=0A=
+    color: #7f7f7f;=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-org-warning {=0A=
+    /* org-warning */=0A=
+    color: #ff0000;=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-outline-1 {=0A=
+    /* outline-1 */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-outline-2 {=0A=
+    /* outline-2 */=0A=
+    color: #b8860b;=0A=
+}=0A=
+.org-outline-3 {=0A=
+    /* outline-3 */=0A=
+    color: #a020f0;=0A=
+}=0A=
+.org-outline-4 {=0A=
+    /* outline-4 */=0A=
+    color: #b22222;=0A=
+}=0A=
+.org-outline-5 {=0A=
+    /* outline-5 */=0A=
+    color: #228b22;=0A=
+}=0A=
+.org-outline-6 {=0A=
+    /* outline-6 */=0A=
+    color: #5f9ea0;=0A=
+}=0A=
+.org-outline-7 {=0A=
+    /* outline-7 */=0A=
+    color: #da70d6;=0A=
+}=0A=
+.org-outline-8 {=0A=
+    /* outline-8 */=0A=
+    color: #bc8f8f;=0A=
+}=0A=
+.org-preprocessor {=0A=
+    /* font-lock-preprocessor-face */=0A=
+    color: #da70d6;=0A=
+}=0A=
+.org-query-replace {=0A=
+    /* query-replace */=0A=
+    color: #b0e2ff;=0A=
+    background-color: #cd00cd;=0A=
+}=0A=
+.org-regexp-grouping-backslash {=0A=
+    /* font-lock-regexp-grouping-backslash */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-regexp-grouping-construct {=0A=
+    /* font-lock-regexp-grouping-construct */=0A=
+    font-weight: bold;=0A=
+}=0A=
+.org-region {=0A=
+    /* region */=0A=
+    background-color: #eedc82;=0A=
+}=0A=
+.org-rmail-highlight {=0A=
+}=0A=
+.org-scroll-bar {=0A=
+    /* scroll-bar */=0A=
+    background-color: #bfbfbf;=0A=
+}=0A=
+.org-secondary-selection {=0A=
+    /* secondary-selection */=0A=
+    background-color: #ffff00;=0A=
+}=0A=
+.org-shadow {=0A=
+    /* shadow */=0A=
+    color: #7f7f7f;=0A=
+}=0A=
+.org-show-paren-match {=0A=
+    /* show-paren-match */=0A=
+    background-color: #40e0d0;=0A=
+}=0A=
+.org-show-paren-mismatch {=0A=
+    /* show-paren-mismatch */=0A=
+    color: #ffffff;=0A=
+    background-color: #a020f0;=0A=
+}=0A=
+.org-string {=0A=
+    /* font-lock-string-face */=0A=
+    color: #bc8f8f;=0A=
+}=0A=
+.org-texinfo-heading {=0A=
+    /* texinfo-heading */=0A=
+    color: #0000ff;=0A=
+}=0A=
+.org-tool-bar {=0A=
+    /* tool-bar */=0A=
+    color: #000000;=0A=
+    background-color: #bfbfbf;=0A=
+}=0A=
+.org-tooltip {=0A=
+    /* tooltip */=0A=
+    color: #000000;=0A=
+    background-color: #ffffe0;=0A=
+}=0A=
+.org-trailing-whitespace {=0A=
+    /* trailing-whitespace */=0A=
+    background-color: #ff0000;=0A=
+}=0A=
+.org-type {=0A=
+    /* font-lock-type-face */=0A=
+    color: #228b22;=0A=
+}=0A=
+.org-underline {=0A=
+    /* underline */=0A=
+    text-decoration: underline;=0A=
+}=0A=
+.org-variable-name {=0A=
+    /* font-lock-variable-name-face */=0A=
+    color: #b8860b;=0A=
+}=0A=
+.org-variable-pitch {=0A=
+}=0A=
+.org-vertical-border {=0A=
+}=0A=
+.org-warning {=0A=
+    /* font-lock-warning-face */=0A=
+    color: #ff0000;=0A=
+    font-weight: bold;=0A=
+}=0A=
+=0A=
+=0A=
+=0A=
+.logo-link {=0A=
+    position: fixed;=0A=
+    top: 10px;=0A=
+    left: 30px;=0A=
+}=0A=
+=0A=
+/* These style are only for IE: */=0A=
+=0A=
+* html {=0A=
+    overflow: hidden;=0A=
+    padding-bottom:0px;=0A=
+    margin:0px;=0A=
+}=0A=
+=0A=
+* html body {=0A=
+    height: 100%;=0A=
+    overflow:auto;=0A=
+    font-size: 100%;=0A=
+    margin: 0px 0px 0px 250px;=0A=
+    padding: 0px 10% 0px 0px;=0A=
+}=0A=
+/* =E9=92=88=E5=AF=B9Ie ,=E5=A5=BD=E5=83=8F=E5=9B=A0=E4=B8=BAiexplore =
+=E4=B8=8D=E8=AE=A4=E8=AF=86position:fixed =
+=E6=89=80=E4=BB=A5=E6=B2=A1=E5=8A=9E=E6=B3=95=E8=AE=A9=0A=
+   =
+=E5=AF=BC=E8=88=AA=E9=83=A8=E5=88=86=E7=9A=84=E6=98=BE=E7=A4=BA=E5=9B=BA=E5=
+=AE=9A=E5=9C=A8=E7=89=B9=E5=AE=9A=E7=9A=84=E4=BD=8D=E7=BD=AE=EF=BC=8C=E4=B8=
+=8D=E9=9A=8F=E6=BB=9A=E5=8A=A8=E6=9D=A1=E8=80=8C=E6=BB=9A=E5=8A=A8=0A=
+ */=0A=
+* html #table-of-contents {=0A=
+    position: absolute;=0A=
+    width:200px;=0A=
+    left:10px=0A=
+    /*=0A=
+      The evil IE-JavaScript hack :-) depends on Picture and y-distance.=0A=
+      Added to support small screens (Netbooks...).=0A=
+      */=0A=
+    top: expression( ( 30 + ( noValue =3D =
+document.documentElement.scrollTop ? document.documentElement.scrollTop =
+: document.body.scrollTop ) ) + 'px' );=0A=
+    /* top: expression((document.body.clientHeight - 210) + "px"); */=0A=
+     /* height: expression((document.body.clientHeight - 210) + "px"); */=0A=
+}=0A=
+* html #org-div-home-and-up {=0A=
+    position: absolute;=0A=
+    width:200px;=0A=
+    right:25px;=0A=
+    /*=0A=
+      The evil IE-JavaScript hack :-) depends on Picture and y-distance.=0A=
+      Added to support small screens (Netbooks...).=0A=
+      */=0A=
+    /* top: expression( ( 10 + ( noValue =3D =
+document.documentElement.scrollTop ? document.documentElement.scrollTop =
+: document.body.scrollTop ) ) + 'px' ); */=0A=
+    /* top: expression((document.body.clientHeight - 210) + "px"); */=0A=
+     /* height: expression((document.body.clientHeight - 210) + "px"); */=0A=
+}=0A=
+* html #org-src{=0A=
+    position: absolute;=0A=
+    width:25px;=0A=
+    right:20px;=0A=
+}=0A=
+* html #htmlized-src{=0A=
+    position: absolute;=0A=
+    width:120px;=0A=
+    right:20px;=0A=
+}=0A=
+=0A=
+* html p.author{=0A=
+    position: absolute;=0A=
+    width:125px;=0A=
+    left:20px;=0A=
+}=0A=
+* html p.date{=0A=
+    position: absolute;=0A=
+    width:225px;=0A=
+    left:20px;=0A=
+    bottom:0px;=0A=
+}=0A=
+* html p.creator{=0A=
+    position: absolute;=0A=
+    width:425px;=0A=
+    left:20px;=0A=
+    bottom:20px;=0A=
+}=0A=
+=0A=
+* html h1 {=0A=
+    margin-top:10px;=0A=
+}=0A=
+=0A=
+* html .logo-link {=0A=
+    position: absolute;=0A=
+    top: 10px;=0A=
+    left: 30px;=0A=
+}=0A=
+=0A=
+* html #logo-text{=0A=
+    font-size: 75%;=0A=
+	position: absolute;=0A=
+	display: block;=0A=
+	right: 10px;=0A=
+	bottom: 3px;=0A=
+	overflow:hidden;=0A=
+}=0A=
+ =0A=
+ =0A=
+* html div#tags {=0A=
+	font-size: 75%;=0A=
+	/* line-height: 1.4em; */=0A=
+	position: absolute;=0A=
+	display: block;=0A=
+	right: -2px;=0A=
+	top: 10%;=0A=
+	width: 150px;=0A=
+	/* min-height:60px; */=0A=
+	max-height:95%;=0A=
+	/* overflow:visible; */=0A=
+    /* white-space:pre-wrap; */=0A=
+}=0A=
+=0A=
+    </STYLE>
+<LINK rel=3D"stylesheet" type=3D"text/css" =
+href=3D"http://jixiuf.github.com/style/emacs.css">
+<SCRIPT type=3D"text/javascript" =
+src=3D"http://jixiuf.github.com/js/emacs.js"> </SCRIPT>
+</HEAD>
+<BODY>
+<DIV style=3D"text-align: right; font-size: 70%; white-space: nowrap;" =
+id=3D"org-div-home-and-up"><A=20
+accessKey=3D"h" href=3D"http://jixiuf.github.com/sitemap.html"> =
+=E7=AB=99=E7=82=B9=E5=9C=B0=E5=9B=BE </A>| <A=20
+accessKey=3D"H" href=3D"http://jixiuf.github.com/index.html"> =
+=E9=A6=96=E9=A1=B5 </A></DIV>
+<DIV id=3D"preamble"></DIV>
+<DIV id=3D"content">
+<H1 class=3D"title">cc mode =
+=E9=87=8C=E5=85=B3=E4=BA=8Eindent(=E7=BC=A9=E8=BF=9B)=E7=9A=84=E6=8E=A7=E5=
+=88=B6</H1>
+<DIV id=3D"logo-img"><A=20
+href=3D"http://jixiuf.github.com/index.html">=E2=96=87=E2=96=88=E2=96=93=E2=
+=96=92=E2=96=91=E2=97=95~=E2=97=95=E2=96=91=E2=96=92=E2=96=93=E2=96=88=E2=
+=96=87</A></DIV>
+<DIV id=3D"logo-text"><A=20
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#"><SPAN=20
+align=3D"left">=E2=96=91=E2=97=95~=E2=97=95=E2=96=91</SPAN></A></DIV>
+<DIV id=3D"table-of-contents">
+<H2>Table of Contents</H2>
+<DIV id=3D"text-table-of-contents">
+<UL>
+  <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-1">`C-cC-s' =20
+  `C-uC-cC-s'</A></LI>
+  <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2">indent=20
+  =E5=AE=9A=E4=BD=8D=E4=BF=A1=E6=81=AF</A>
+  <UL>
+    <LI><A=20
+    =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-1">(=E5=87=BD=
+=E6=95=B0=E7=9B=B8=E5=85=B3=E7=9A=84=E5=AE=9A=E4=BD=8D)function=20
+    related Symbols</A></LI>
+    <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-2">=E7=B1=BB=E7=
+=9B=B8=E5=85=B3=E7=9A=84=E5=AE=9A=E4=BD=8D=20
+    Class related Symbols</A></LI>
+    <LI><A=20
+    =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-3">Conditiona=
+l=20
+    Construct Symbols if else for=E5=AD=90=E5=8F=A5</A></LI>
+    <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-4">switch=20
+    case =E5=AD=90=E5=8F=A5</A></LI>
+    <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-5">})', `([=20
+    ])' and `(&lt; &gt;)', are treated as brace lists too.  An =
+example:</A></LI>
+    <LI><A=20
+    =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-6">=E6=8B=AC=E5=
+=8F=B7=E5=8C=B9=E9=85=8D,=E5=8F=82=E6=95=B0=E7=9B=B8=E5=85=B3</A></LI>
+    <LI><A=20
+    =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-7">=E5=85=B6=E4=
+=BB=96</A></LI>
+    <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-8">java=20
+    =E7=9B=B8=E5=85=B3</A></LI>
+    <LI><A=20
+    =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-2-9">statement<=
+/A></LI>
+  </UL></LI>
+  <LI><A=20
+  =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-3">c-offsets-al=
+ist</A></LI>
+  <LI><A =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-4">=E7=A4=BA=E4=
+=BE=8B</A></LI>
+  <LI><A=20
+  =
+href=3D"http://jixiuf.github.com/emacs/cc-indent.html#sec-5">style</A></L=
+I></UL>
+</DIV></DIV>
+<DIV id=3D"outline-container-1" class=3D"outline-2">
+<H2 id=3D"sec-1">`C-cC-s'  `C-uC-cC-s'</H2>
+<DIV id=3D"text-1" class=3D"outline-text-2">
+<P>=E6=98=BE=E7=A4=BA=E5=BD=93=E5=89=8D=E8=A1=8C=E7=9A=84indent=E4=BF=A1=E6=
+=81=AF<BR></P></DIV></DIV>
+<DIV id=3D"outline-container-2" class=3D"outline-2">
+<H2 id=3D"sec-2">indent =E5=AE=9A=E4=BD=8D=E4=BF=A1=E6=81=AF</H2>
+<DIV id=3D"text-2" class=3D"outline-text-2"></DIV>
+<DIV id=3D"outline-container-2-1" class=3D"outline-3">
+<H3 =
+id=3D"sec-2-1">(=E5=87=BD=E6=95=B0=E7=9B=B8=E5=85=B3=E7=9A=84=E5=AE=9A=E4=
+=BD=8D)function related Symbols</H3>
+<DIV id=3D"text-2-1" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c"><SPAN class=3D"org-type">void</SPAN>     =
+                      <SPAN class=3D"org-comment-delimiter">/* =
+</SPAN><SPAN class=3D"org-comment">((topmost-intro 1)), top-level =
+=E8=A1=A8=E8=BE=BE=E7=A4=BA=E7=9A=84=E7=AC=AC=E4=B8=80=E8=A1=8C, =
+</SPAN><SPAN class=3D"org-comment-delimiter">*/</SPAN>=0A=
+<SPAN class=3D"org-function-name">swap</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN>&amp; a, <SPAN =
+class=3D"org-type">int</SPAN>&amp; b )         <SPAN =
+class=3D"org-comment-delimiter">/* </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro-cont 2)) =E6=98=AFtopmost-intro =
+=E7=9A=84continuation(=E7=BB=A7=E7=BB=AD) </SPAN><SPAN =
+class=3D"org-comment-delimiter">*/</SPAN>=0A=
+{                              <SPAN class=3D"org-comment-delimiter">/* =
+</SPAN><SPAN class=3D"org-comment">((defun-open 2)) =
+=E5=87=BD=E6=95=B0=E5=AE=9A=E4=B9=89=E7=9A=84=E5=BC=80=E5=A7=8B</SPAN><SP=
+AN class=3D"org-comment-delimiter">*/</SPAN>=0A=
+    <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">tmp</SPAN> =3D a;               <SPAN =
+class=3D"org-comment-delimiter">/* </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 123)) =
+,=E5=87=BD=E6=95=B0=E5=86=85=E7=AC=AC=E4=B8=80=E6=9D=A1=E8=AF=AD=E5=8F=A5=
+</SPAN><SPAN class=3D"org-comment-delimiter">*/</SPAN>=0A=
+    a =3D b;                     <SPAN =
+class=3D"org-comment-delimiter">/* </SPAN><SPAN =
+class=3D"org-comment">((statement 182)) =
+=E6=99=AE=E9=80=9A=E7=9A=84=E4=B8=80=E6=9D=A1=E8=AF=AD=E5=8F=A5</SPAN><SP=
+AN class=3D"org-comment-delimiter">*/</SPAN>=0A=
+    b =3D tmp;                   <SPAN =
+class=3D"org-comment-delimiter">/* </SPAN><SPAN =
+class=3D"org-comment">((statement 246)) </SPAN><SPAN =
+class=3D"org-comment-delimiter">*/</SPAN>=0A=
+    <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">ignored</SPAN> =3D              <SPAN =
+class=3D"org-comment-delimiter">/* </SPAN><SPAN =
+class=3D"org-comment">((statement 302)) </SPAN><SPAN =
+class=3D"org-comment-delimiter">*/</SPAN>=0A=
+            a + b;             <SPAN class=3D"org-comment-delimiter">/* =
+</SPAN><SPAN class=3D"org-comment">((statement-cont 358)) =
+,=E4=B8=8A=E4=B8=80=E5=8F=A5=E4=B8=8D=E5=AE=8C=E6=95=B4statement=E7=9A=84=
+=E7=BB=A7=E7=BB=AD</SPAN><SPAN class=3D"org-comment-delimiter">*/</SPAN>=0A=
+ }                             <SPAN class=3D"org-comment-delimiter">/* =
+</SPAN><SPAN class=3D"org-comment">((defun-close 123)) =
+=E5=87=BD=E6=95=B0=E7=9A=84=E7=BB=93=E6=9D=9F</SPAN><SPAN =
+class=3D"org-comment-delimiter">*/</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-2" class=3D"outline-3">
+<H3 =
+id=3D"sec-2-2">=E7=B1=BB=E7=9B=B8=E5=85=B3=E7=9A=84=E5=AE=9A=E4=BD=8D =
+Class related Symbols</H3>
+<DIV id=3D"text-2-2" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"> <SPAN =
+class=3D"org-keyword">class</SPAN> <SPAN class=3D"org-type">Bass</SPAN>  =
+                   <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+   : <SPAN class=3D"org-keyword">public</SPAN> Guitar,           <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inher-intro 2) inheritance(=E7=BB=A7=E6=89=BF), =
+=E7=BB=A7=E6=89=BF=E8=AF=AD=E5=8F=A5=E7=9A=84=E5=BC=80=E5=A7=8B)</SPAN>=0A=
+     <SPAN class=3D"org-keyword">public</SPAN> Amplifiable       <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inher-cont 61) =
+=E7=BB=A7=E6=89=BF=E8=AF=AD=E5=8F=A5=E7=9A=84continuation(=E7=BB=A7=E7=BB=
+=AD) )</SPAN>=0A=
+ {                              <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((class-open 2))</SPAN>=0A=
+<SPAN class=3D"org-keyword">public</SPAN>:                        <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inclass 163) (access-label 163)) =
+,=E5=8C=85=E6=8B=AC=E4=BA=86=E4=B8=A4=E4=B8=AA=E7=B1=BB=E5=9E=8B,inclass =
+,access-label=E8=AE=BF=E9=97=AE=E6=8E=A7=E5=88=B6=E7=AC=A6,=E4=BC=B0=E8=AE=
+=A1=E6=98=AFprotect public=E4=B9=8B=E6=B5=81</SPAN>=0A=
+     <SPAN class=3D"org-function-name">Bass</SPAN>()                     =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inclass 163) (topmost-intro 162))</SPAN>=0A=
+         : eString( <SPAN class=3D"org-keyword">new</SPAN> <SPAN =
+class=3D"org-type">BassString</SPAN>( 0.105 )), <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((member-init-intro 289)) =
+=E7=AC=AC=E4=B8=80=E4=B8=AAmember</SPAN>=0A=
+           aString( <SPAN class=3D"org-keyword">new</SPAN> <SPAN =
+class=3D"org-type">BassString</SPAN>( 0.085 )), <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((member-init-cont 366)),member =
+=E7=9A=84=E7=BB=A7=E7=BB=AD</SPAN>=0A=
+           dString( <SPAN class=3D"org-keyword">new</SPAN> <SPAN =
+class=3D"org-type">BassString</SPAN>( 0.065 )), <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((member-init-cont 366))</SPAN>=0A=
+           gString( <SPAN class=3D"org-keyword">new</SPAN> <SPAN =
+class=3D"org-type">BassString</SPAN>( 0.045 ))  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((member-init-cont 366))</SPAN>=0A=
+     {                                        <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inclass 163) (inline-open)) inline-open =
+=E4=B8=8E =
+defun-open=E7=9A=84=E4=B8=8D=E5=90=8C=E6=98=AF,=E5=AE=83=E6=98=AF"=E7=B1=BB=
+=E4=B8=AD=E5=87=BD=E6=95=B0" </SPAN>=0A=
+         eString.tune( <SPAN class=3D"org-string">'E'</SPAN> );          =
+       <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 657)) =
+=E5=87=BD=E6=95=B0=E5=AE=9A=E4=B9=89=E7=9A=84=E7=AC=AC=E4=B8=80=E5=8F=A5<=
+/SPAN>=0A=
+         aString.tune( <SPAN class=3D"org-string">'A'</SPAN> );          =
+       <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 740))</SPAN>=0A=
+         dString.tune( <SPAN class=3D"org-string">'D'</SPAN> );          =
+       <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 815))</SPAN>=0A=
+         gString.tune( <SPAN class=3D"org-string">'G'</SPAN> );          =
+       <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 882))</SPAN>=0A=
+     }                                        <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inline-close 657))</SPAN>=0A=
+     <SPAN class=3D"org-keyword">friend</SPAN> <SPAN =
+class=3D"org-keyword">class</SPAN> <SPAN =
+class=3D"org-type">Luthier</SPAN>;                    <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inclass 163) (topmost-intro 1007) =
+(friend))</SPAN>=0A=
+ };                                           <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((class-close 2))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-3" class=3D"outline-3">
+<H3 id=3D"sec-2-3">Conditional Construct Symbols if else =
+for=E5=AD=90=E5=8F=A5</H3>
+<DIV id=3D"text-2-3" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"><SPAN class=3D"org-type">void</SPAN> =
+<SPAN class=3D"org-function-name">spam</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">index</SPAN> )         <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+{                              <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((defun-open 2))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">for</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">i</SPAN>=3D0; i&lt;index; i++ ) <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 57))</SPAN>=0A=
+    {                                 <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((substatement-open 113)) =
+=E5=87=BD=E6=95=B0=E5=86=85=E9=83=A8=E7=9A=84=E4=B8=80=E4=BA=9Bif for =
+=E7=AD=89=E8=AF=AD=E5=8F=A5=E7=9A=84open </SPAN>=0A=
+      <SPAN class=3D"org-keyword">if</SPAN>( i =3D=3D 10 )            =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement-block-intro 175)) =
+=E5=87=BD=E6=95=B0=E5=86=85=E9=83=A8=E7=9A=84=E4=B8=80=E4=BA=9Bif for =
+=E7=AD=89=E8=AF=AD=E5=8F=A5=E7=9A=84open =
+=E7=AC=AC=E4=B8=80=E6=9D=A1=E8=AF=AD=E5=8F=A5</SPAN>=0A=
+            do_something_special(); <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((substatement 242))</SPAN>=0A=
+        <SPAN class=3D"org-keyword">else</SPAN>                        =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((else-clause 242))</SPAN>=0A=
+          silly_label:              <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((substatement-label 370)) </SPAN>=0A=
+            do_something( i );      <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((substatement 370))</SPAN>=0A=
+    }                               <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((block-close 175))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">do</SPAN> {                            =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 113))</SPAN>=0A=
+        another_thing( i-- );       <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement-block-intro 614))</SPAN>=0A=
+    }                               <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((block-close 614))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">while</SPAN>( i &gt; 0 );                =
+ <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((do-while-closure 614))</SPAN>=0A=
+}                                   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-close 57))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-4" class=3D"outline-3">
+<H3 id=3D"sec-2-4">switch case =E5=AD=90=E5=8F=A5</H3>
+<DIV id=3D"text-2-4" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"><SPAN class=3D"org-type">void</SPAN> =
+<SPAN class=3D"org-function-name">spam</SPAN>( <SPAN =
+class=3D"org-keyword">enum</SPAN> <SPAN =
+class=3D"org-type">Ingredient</SPAN> <SPAN =
+class=3D"org-variable-name">i</SPAN> )  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1)) </SPAN>=0A=
+{                               <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((defun-open 1))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">switch</SPAN>                      <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 56))</SPAN>=0A=
+    ( i ) {                     <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement-cont 112))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">case</SPAN> Ham:                   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((case-label 112))           case =
+=E8=AF=AD=E5=8F=A5</SPAN>=0A=
+        be_a_pig();             <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement-case-intro 230)) case =
+=E4=B8=8B=E7=AC=AC=E4=B8=80=E6=9D=A1=E8=AF=AD=E5=8F=A5</SPAN>=0A=
+        <SPAN class=3D"org-keyword">break</SPAN>;                  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 288))          </SPAN>=0A=
+    <SPAN class=3D"org-keyword">case</SPAN> Salt:                  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((case-label 112))</SPAN>=0A=
+        drink_some_water();     <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement-case-intro 401))</SPAN>=0A=
+        <SPAN class=3D"org-keyword">break</SPAN>;                  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 459))</SPAN>=0A=
+    <SPAN class=3D"org-keyword">default</SPAN>:                    <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((case-label 112))</SPAN>=0A=
+        {                       <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement-case-open 572))   case =
+=E7=9A=84open </SPAN>=0A=
+            what_is_it();       <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement-block-intro 630)) </SPAN>=0A=
+            <SPAN class=3D"org-keyword">break</SPAN>;              <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 697))</SPAN>=0A=
+        }                       <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((block-close 630))</SPAN>=0A=
+    }                           <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((block-close 112))</SPAN>=0A=
+}                               <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((defun-close 56))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-5" class=3D"outline-3">
+<H3 id=3D"sec-2-5">})', `([ ])' and `(&lt; &gt;)', are treated as brace =
+lists too.=20
+ An example:</H3>
+<DIV id=3D"text-2-5" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"> <SPAN =
+class=3D"org-keyword">static</SPAN> <SPAN =
+class=3D"org-type">char</SPAN>* <SPAN =
+class=3D"org-variable-name">ingredients</SPAN>[] =3D   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+{                              <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((brace-list-open 2))</SPAN>=0A=
+    <SPAN class=3D"org-string">"Ham"</SPAN>,                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((brace-list-intro 57))</SPAN>=0A=
+    <SPAN class=3D"org-string">"Salt"</SPAN>,                    <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((brace-list-entry 118))</SPAN>=0A=
+    <SPAN class=3D"org-constant">NULL</SPAN>                       <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((brace-list-entry 118))</SPAN>=0A=
+};                             <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((brace-list-close 57))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-6" class=3D"outline-3">
+<H3 =
+id=3D"sec-2-6">=E6=8B=AC=E5=8F=B7=E5=8C=B9=E9=85=8D,=E5=8F=82=E6=95=B0=E7=
+=9B=B8=E5=85=B3</H3>
+<DIV id=3D"text-2-6" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"><SPAN class=3D"org-type">void</SPAN> =
+<SPAN class=3D"org-function-name">a_function</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line1</SPAN>,     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+                 <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line2</SPAN> );   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-cont-nonempty 1 16)) =
+=E8=A1=A8=E7=A4=BA=E8=BF=99=E6=98=AF =
+(arglist-cont,=E5=B9=B6=E4=B8=94noempty =
+=E8=A1=A8=E7=A4=BA=E6=AD=A4=E8=A1=8C=E5=8C=85=E5=90=AB =
+=E4=BA=86=E5=8F=B3=E6=8B=AC=E5=8F=B7) </SPAN>=0A=
+                                <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((topmost-intro 56))</SPAN>=0A=
+<SPAN class=3D"org-type">void</SPAN> <SPAN =
+class=3D"org-function-name">a_longer_function</SPAN>(         <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 56)) </SPAN>=0A=
+    <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line1</SPAN>,                  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-intro 178 200))        =
+=E7=AC=AC=E4=B8=80=E4=B8=AA=E5=8F=82=E6=95=B0</SPAN>=0A=
+    <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line2</SPAN>                   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-cont 238)) =
+=E5=8F=82=E6=95=B0=E7=9A=84=E7=BB=A7=E7=BB=AD</SPAN>=0A=
+    );                          <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((arglist-close 178 =
+200))=E5=8F=82=E6=95=B0=E5=85=B3=E9=97=AD</SPAN>=0A=
+<SPAN class=3D"org-type">void</SPAN> <SPAN =
+class=3D"org-function-name">call_them</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line1</SPAN>, <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">line2</SPAN> ) <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 351))</SPAN>=0A=
+ {                                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-open 469))</SPAN>=0A=
+     a_function(                       <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 534))</SPAN>=0A=
+         line1,                        <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-intro 599 609))</SPAN>=0A=
+         line2                         <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-cont 671))</SPAN>=0A=
+         );                            <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-close 599 609))</SPAN>=0A=
+                                <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement 599))</SPAN>=0A=
+     a_longer_function( line1,  <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((statement 599))</SPAN>=0A=
+                        line2 ); <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((arglist-cont-nonempty 919 936)) =
+=E5=87=BD=E6=95=B0 =
+=E8=B0=83=E7=94=A8=E5=8F=82=E6=95=B0=E7=9B=B8=E5=85=B3=E7=9A=84,=E8=A1=A8=
+=E7=A4=BA=E8=BF=99=E6=98=AF(arglist-cont, noempty =
+=E8=A1=A8=E7=A4=BA=E6=AD=A4=E8=A1=8C=E5=8C=85=E5=90=AB =
+=E4=BA=86=E5=8F=B3=E6=8B=AC=E5=8F=B7) </SPAN>=0A=
+ }                               <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-close 534))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-7" class=3D"outline-3">
+<H3 id=3D"sec-2-7">=E5=85=B6=E4=BB=96</H3>
+<DIV id=3D"text-2-7" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"><SPAN class=3D"org-type">void</SPAN> =
+<SPAN class=3D"org-constant">Bass</SPAN>::<SPAN =
+class=3D"org-function-name">play</SPAN>( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">volume</SPAN> )                              =
+           <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+<SPAN class=3D"org-keyword">const</SPAN>                                 =
+                                <SPAN class=3D"org-comment-delimiter">// =
+</SPAN><SPAN class=3D"org-comment">((func-decl-cont 1)) =
+function=E5=A3=B0=E6=98=8E=E8=8B=A5=E5=A4=9A=E8=A1=8C=E6=97=B6,=E7=9A=84=E7=
+=BB=A7=E7=BB=AD</SPAN>=0A=
+{                                                                     =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-open 1))</SPAN>=0A=
+  <SPAN class=3D"org-comment-delimiter">/*</SPAN><SPAN =
+class=3D"org-comment">this line starts a multiline                       =
+                  ((defun-block-intro 112) =
+(comment-intro)),=E6=B3=A8=E9=87=8A=E7=9A=84=E5=BC=80=E5=A7=8B</SPAN>=0A=
+<SPAN class=3D"org-comment">     * comment.  This line should get `c' =
+syntax */</SPAN>                   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((c 196)) =E6=B3=A8=E9=87=8A</SPAN>=0A=
+    <SPAN class=3D"org-type">char</SPAN>* <SPAN =
+class=3D"org-variable-name">a_multiline_string</SPAN> =3D <SPAN =
+class=3D"org-warning">"</SPAN><SPAN class=3D"org-string">This line =
+starts a multiline \        // ((defun-block-intro 112)) </SPAN>=0A=
+<SPAN class=3D"org-string">string.  This line should get `string' =
+syntax."</SPAN>;                      <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((string 395))       =
+,=E8=A1=A8=E7=A4=BA=E6=98=AF=E4=B8=80=E4=B8=AAstring=E7=9A=84=E7=AA=9D=E5=
+=86=85</SPAN>=0A=
+   note:                                                              =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((label 112))</SPAN>=0A=
+     {                                                                =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((block-open) (statement 399))</SPAN>=0A=
+<SPAN class=3D"org-preprocessor"> #ifdef</SPAN> LOCK                     =
+                                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement-block-intro 675) (cpp-macro))</SPAN>=0A=
+         <SPAN class=3D"org-type">Lock</SPAN> <SPAN =
+class=3D"org-variable-name">acquire</SPAN>();                            =
+                  <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement-block-intro 675))</SPAN>=0A=
+<SPAN class=3D"org-preprocessor"> #endif</SPAN>                          =
+                                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 822) (cpp-macro))LOCK</SPAN>=0A=
+         slap_pop();                                                  =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 822))</SPAN>=0A=
+         cout &lt;&lt; <SPAN class=3D"org-string">"I played "</SPAN>     =
+                                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 956))</SPAN>=0A=
+              &lt;&lt; <SPAN class=3D"org-string">"a note\n"</SPAN>;     =
+                                     <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((stream-op 1009))</SPAN>=0A=
+     }                                                                =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((block-close 675))</SPAN>=0A=
+ }                                                                    =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-close 112))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-8" class=3D"outline-3">
+<H3 id=3D"sec-2-8">java =E7=9B=B8=E5=85=B3</H3>
+<DIV id=3D"text-2-8" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-java"><SPAN =
+class=3D"org-c-annotation">@Test</SPAN>                          <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+<SPAN class=3D"org-keyword">public</SPAN> <SPAN =
+class=3D"org-type">void</SPAN> <SPAN =
+class=3D"org-function-name">watch</SPAN>(<SPAN =
+class=3D"org-type">Observable</SPAN> <SPAN =
+class=3D"org-variable-name">o</SPAN>) { <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((annotation-top-cont 2)) =E5=AF=B9method =
+class=E8=BF=9B=E8=A1=8C annotation=E5=A3=B0=E6=98=8E</SPAN>=0A=
+    <SPAN class=3D"org-c-annotation">@NonNull</SPAN>                     =
+ <SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 2))</SPAN>=0A=
+        <SPAN class=3D"org-type">Observer</SPAN> <SPAN =
+class=3D"org-variable-name">obs</SPAN> =3D <SPAN =
+class=3D"org-keyword">new</SPAN> <SPAN =
+class=3D"org-type">Observer</SPAN>() { <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((annotation-var-cont =
+125))=E5=AF=B9=E5=8F=98=E9=87=8F=E8=BF=9B=E8=A1=8C =
+annotation=E5=A3=B0=E6=98=8E </SPAN>=0A=
+            <SPAN class=3D"org-keyword">public</SPAN> <SPAN =
+class=3D"org-type">void</SPAN> <SPAN =
+class=3D"org-function-name">update</SPAN>(<SPAN =
+class=3D"org-type">Observable</SPAN> <SPAN =
+class=3D"org-variable-name">o</SPAN>, <SPAN =
+class=3D"org-type">Object</SPAN> <SPAN =
+class=3D"org-variable-name">arg</SPAN>) { <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inexpr-class=E5=86=85=E9=83=A8=E7=B1=BB) =
+(inclass 187) (topmost-intro =
+182)),=E5=AE=83=E5=85=B7=E6=9C=89=E6=99=AE=E9=80=9Ainclass=E7=9A=84=E7=89=
+=B9=E6=80=A7,=E5=90=8C=E6=97=B6=E6=9C=89inexpr-class=E7=9A=84=E7=89=B9=E6=
+=80=A7</SPAN>=0A=
+            history.addElement(arg);                   <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-block-intro 259))</SPAN>=0A=
+        }                                              <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inline-close 259))</SPAN>=0A=
+    };                                                 <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inexpr-class) (class-close 187))</SPAN>=0A=
+    o.addObserver(obs);                                <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 125))</SPAN>=0A=
+}                                                      <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((defun-close 2))</SPAN>=0A=
+=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-2-9" class=3D"outline-3">
+<H3 id=3D"sec-2-9">statement</H3>
+<DIV id=3D"text-2-9" class=3D"outline-text-3">
+<P><BR><PRE class=3D"src src-c++"><SPAN class=3D"org-type">int</SPAN> =
+<SPAN class=3D"org-variable-name">res</SPAN> =3D ({                    =
+<SPAN class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((topmost-intro 1))</SPAN>=0A=
+    <SPAN class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">y</SPAN> =3D foo (); <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">z</SPAN>;  <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inexpr-statement) (statement-block-intro 1)) =
+,(inexpr-statement)=E8=A1=A8=E7=A4=BA=E5=AE=83=E5=A4=84=E4=BA=8E=E4=B8=80=
+=E4=B8=AAstatement=E7=9A=84=E5=86=85=E9=83=A8=E7=9A=84=E8=A1=A8=E8=BE=BE=E7=
+=A4=BA</SPAN>=0A=
+        <SPAN class=3D"org-keyword">if</SPAN> (y &gt; 0) z =3D y; <SPAN =
+class=3D"org-keyword">else</SPAN> z =3D - y; <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 64))</SPAN>=0A=
+        z;                              <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((statement 146))</SPAN>=0A=
+    });                                 <SPAN =
+class=3D"org-comment-delimiter">// </SPAN><SPAN =
+class=3D"org-comment">((inexpr-statement) (block-close 1))</SPAN>=0A=
+</PRE>
+<P></P></DIV></DIV></DIV>
+<DIV id=3D"outline-container-3" class=3D"outline-2">
+<H2 id=3D"sec-3">c-offsets-alist</H2>
+<DIV id=3D"text-3" class=3D"outline-text-2">
+<P><BR><PRE class=3D"src src-emacs-lisp">  (<SPAN =
+class=3D"org-function-name">setq</SPAN> c-offsets-alist=0A=
+        ' ((statement . 0)=0A=
+           (statement-cont . 0)=0A=
+           (substatement . +)=0A=
+           (cpp-macro . [0])=0A=
+           (topmost-intro-cont . c-lineup-topmost-intro-cont)=0A=
+           (statement-block-intro . ++)=0A=
+           (statement-block-intro . (add c-lineup-whitesmith-in-block=0A=
+                                         c-indent-multi-line-block))=0A=
+           ))=0A=
+=E6=88=96=E8=80=85=0A=
+=E5=8F=AA=E8=AE=BE=E6=9F=90=E4=B8=80=E4=B8=AA=E5=80=BC=0A=
+ (c-set-offset 'topmost-intro '+)=0A=
+=0A=
+</PRE>
+<P></P></DIV></DIV>
+<DIV id=3D"outline-container-4" class=3D"outline-2">
+<H2 id=3D"sec-4">=E7=A4=BA=E4=BE=8B</H2>
+<DIV id=3D"text-4" class=3D"outline-text-2">
+<P><BR><PRE class=3D"src src-c">      1: <SPAN =
+class=3D"org-type">int</SPAN> add( <SPAN class=3D"org-type">int</SPAN> =
+<SPAN class=3D"org-variable-name">val</SPAN>, <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">incr</SPAN>, <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">doit</SPAN> )=0A=
+      2: {=0A=
+      3:   <SPAN class=3D"org-keyword">if</SPAN>( doit )=0A=
+      4:     {=0A=
+      5:       <SPAN class=3D"org-keyword">return</SPAN>( val + incr );=0A=
+      6:     }=0A=
+      7:   <SPAN class=3D"org-keyword">return</SPAN>( val );=0A=
+      8: }=0A=
+=E5=8F=98=E6=88=90,=0A=
+      1: <SPAN class=3D"org-type">int</SPAN> add( <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">val</SPAN>, <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">incr</SPAN>, <SPAN =
+class=3D"org-type">int</SPAN> <SPAN =
+class=3D"org-variable-name">doit</SPAN> )=0A=
+      2: {=0A=
+      3:   <SPAN class=3D"org-keyword">if</SPAN>( doit )=0A=
+      4:   {=0A=
+      5:     <SPAN class=3D"org-keyword">return</SPAN>( val + incr );=0A=
+      6:   }=0A=
+      7:   <SPAN class=3D"org-keyword">return</SPAN>( val );=0A=
+      8: }=0A=
+=0A=
+</PRE>=E5=8C=BA=E5=88=AB=E5=9C=A8=E7=AC=AC=E5=9B=9B=E8=A1=8C,=E5=85=89=E6=
+=A0=87=E7=A7=BB=E5=8A=A8=E5=88=B0=E7=AC=AC4=E8=A1=8C,=E6=8C=89=E4=B8=8BC-=
+cC-s=20
+,=E6=98=BE=E7=A4=BA<BR>((substatement-open =
+44))<BR>=E6=89=80=E4=BB=A5=E6=AD=A4=E8=A1=8C=E5=AF=B9=E5=BA=94substatemen=
+t-open<BR>
+<P></P>
+<P><BR><PRE class=3D"src src-emacs-lisp">(c-set-offset =
+'substatement-open 0) <SPAN =
+class=3D"org-comment-delimiter">;</SPAN><SPAN =
+class=3D"org-comment">=E7=BC=A9=E8=BF=9B=E5=8F=98=E6=88=900 </SPAN>=0A=
+</PRE>
+<P></P>
+<P><BR></P></DIV></DIV>
+<DIV id=3D"outline-container-5" class=3D"outline-2">
+<H2 id=3D"sec-5">style</H2>
+<DIV id=3D"text-5" class=3D"outline-text-2">
+<P><BR><PRE class=3D"src src-emacs-lisp">(<SPAN =
+class=3D"org-keyword">defconst</SPAN> <SPAN =
+class=3D"org-variable-name">my-c-style</SPAN>=0A=
+  '((c-tab-always-indent        . <SPAN class=3D"org-constant">t</SPAN>)=0A=
+    (c-comment-only-line-offset . 4)=0A=
+    (c-hanging-braces-alist     . ((substatement-open after)=0A=
+                                   (brace-list-open)))=0A=
+    (c-hanging-colons-alist     . ((member-init-intro before)=0A=
+                                   (inher-intro)=0A=
+                                   (case-label after)=0A=
+                                   (label after)=0A=
+                                   (access-label after)))=0A=
+    (c-cleanup-list             . (scope-operator=0A=
+                                   empty-defun-braces=0A=
+                                   defun-close-semi))=0A=
+    (c-offsets-alist            . ((arglist-close . c-lineup-arglist)=0A=
+                                   (substatement-open . 0)=0A=
+                                   (case-label        . 4)=0A=
+                                   (block-open        . 0)=0A=
+                                   (knr-argdecl-intro . -)))=0A=
+    (c-echo-syntactic-information-p . <SPAN =
+class=3D"org-constant">t</SPAN>))=0A=
+  <SPAN class=3D"org-doc">"My C Programming Style"</SPAN>)=0A=
+(c-add-style <SPAN class=3D"org-string">"PERSONAL"</SPAN> my-c-style)=0A=
+=0A=
+=0A=
+(<SPAN class=3D"org-keyword">defun</SPAN> <SPAN =
+class=3D"org-function-name">my-c-mode-common-hook</SPAN> ()=0A=
+  <SPAN class=3D"org-comment-delimiter">;; </SPAN><SPAN =
+class=3D"org-comment">set my personal style for the current buffer</SPAN>=0A=
+  (c-set-style <SPAN class=3D"org-string">"PERSONAL"</SPAN>)=0A=
+  <SPAN class=3D"org-comment-delimiter">;; </SPAN><SPAN =
+class=3D"org-comment">other customizations</SPAN>=0A=
+  (<SPAN class=3D"org-function-name">setq</SPAN> tab-width 8=0A=
+        <SPAN class=3D"org-comment-delimiter">;; </SPAN><SPAN =
+class=3D"org-comment">this will make sure spaces are used instead of =
+tabs</SPAN>=0A=
+        indent-tabs-mode <SPAN class=3D"org-constant">nil</SPAN>)=0A=
+  <SPAN class=3D"org-comment-delimiter">;; </SPAN><SPAN =
+class=3D"org-comment">we like auto-newline, but not hungry-delete</SPAN>=0A=
+  (c-toggle-auto-newline 1))=0A=
+(<SPAN class=3D"org-function-name">add-hook</SPAN> 'c-mode-common-hook =
+'my-c-mode-common-hook)=0A=
+=0A=
+</PRE>
+<DIV id=3D"my-src">
+<DIV id=3D"org-src"><A=20
+href=3D"http://jixiuf.github.com/src/emacs/cc-indent.org">src</A></DIV>
+<DIV id=3D"htmlized-src"><A =
+href=3D"http://jixiuf.github.com/htmlized-src/emacs/cc-indent.org.html">h=
+tmlized-src</A></DIV>
+</DIV>
+<DIV id=3D"tags"><SPAN id=3D"tags-title">Tags:</SPAN><BR><A =
+href=3D"http://jixiuf.github.com/tags/@SVN.html">@SVN</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@perl.html">@perl</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Java.html">@Java</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@Mysql.html">@Mysql</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Erlang.html">@Erlang</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@SQL.html">@SQL</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@DB.html">@DB</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@Oracle.html">@Oracle</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Ediff.html">@Ediff</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@Git.html">@Git</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Cedet.html">@Cedet</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@C-C++.html">@C-C++</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Daily.html">@Daily</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@Eclipse.html">@Eclipse</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@AutoHotKey.html">@AutoHotKey</A><B=
+R><A=20
+href=3D"http://jixiuf.github.com/tags/@Windows.html">@Windows</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Linux.html">@Linux</A><BR><A=20
+href=3D"http://jixiuf.github.com/tags/@C.html">@C</A><BR><A =
+href=3D"http://jixiuf.github.com/tags/@Emacs.html">@Emacs</A><BR>
+<P></P>
+<P><BR></P></DIV>
+<P></P></DIV></DIV></DIV>
+<DIV id=3D"postamble">
+<P class=3D"date">Date: 2011-11-20 =E6=97=A5</P>
+<P class=3D"author">Author: =E7=BA=AA=E7=A7=80=E5=B3=B0</P>
+<P class=3D"creator">Org version 7.8.03 with Emacs version 24</P></DIV>
+<P><BR><BR><!-- hhmts start --> <!-- hhmts end --></P></BODY></HTML>
+
+------=_NextPart_000_0000_01CDD599.AFC888C0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://jixiuf.github.com/style/emacs.css
+
+body {
+	margin: 0em; scrollbar-face-color: rgb(222, 227, 231); =
+scrollbar-3dlight-color: rgb(209, 215, 220); scrollbar-shadow-color: =
+rgb(222, 227, 231); scrollbar-highlight-color: rgb(255, 255, 255); =
+scrollbar-darkshadow-color: rgb(152, 170, 177); scrollbar-arrow-color: =
+rgb(0, 102, 153); scrollbar-track-color: rgb(239, 239, 239); =
+background-color: rgb(229, 229, 229);
+}
+h1 {
+	font-size: 2em; margin-top: 1em; margin-bottom: 0.3em;
+}
+h2 {
+	font-size: 1.5em; margin-top: 2.4em; margin-bottom: 0.3em;
+}
+h3 {
+	font-size: 1.25em; margin-top: 1.25em; margin-bottom: 0.3em;
+}
+div#content {
+	margin: 0em auto; padding: 2em; width: 92%; height: 100%; line-height: =
+1.4; letter-spacing: 0.07em; font-family: Times, serif; =
+border-right-color: rgb(51, 51, 0); border-left-color: rgb(51, 51, 0); =
+border-right-width: 3mm; border-left-width: 3mm; border-right-style: =
+double; border-left-style: double; min-height: 600px;
+}
+#org-div-home-and-up {
+	top: 5px; right: 18px; overflow: auto; display: block; position: fixed;
+}
+#org-src {
+	top: 20px; right: 18px; overflow: hidden; display: block; position: =
+fixed;
+}
+#htmlized-src {
+	top: 20px; right: 54px; overflow: hidden; display: block; position: =
+fixed;
+}
+#table-of-contents h2 {
+	display: none;
+}
+#logo-text {
+	right: 16px; bottom: 3px; overflow: hidden; display: block; position: =
+fixed;
+}
+#logo-img {
+	left: 16px; top: 3px; font-size: 60%; display: block; position: fixed;
+}
+div#tags {
+	top: 20%; width: 90px; text-align: right; right: 40px; font-size: 75%; =
+display: block; position: fixed; max-height: 95%;
+}
+.title {
+	text-align: center; padding-bottom: 7px; margin-bottom: 20px; =
+border-bottom-color: rgb(34, 34, 34); border-bottom-width: 1px; =
+border-bottom-style: solid;
+}
+a:link {
+	color: rgb(0, 102, 153);
+}
+a:active {
+	color: rgb(0, 102, 153);
+}
+a:visited {
+	color: rgb(0, 102, 153);
+}
+a:hover {
+	color: rgb(221, 105, 0); text-decoration: underline;
+}
+.todo {
+	color: rgb(153, 0, 0);
+}
+.done {
+	color: rgb(0, 102, 102);
+}
+.timestamp-kwd {
+	color: rgb(68, 68, 68);
+}
+.tag {
+	color: rgb(221, 221, 221); font-size: 70%; font-weight: 500;
+}
+table {
+	border: currentColor; width: 90%;
+}
+th {
+	background-color: rgb(0, 102, 153);
+}
+td {
+	padding: 0.1em 0.7em 0.1em 0.3em; background-color: gainsboro;
+}
+code {
+	border: 1px solid rgb(209, 215, 220); color: rgb(0, 0, 160); =
+line-height: 14px; font-family: Andale Mono, Courier New, Courier, =
+sans-serif; font-size: 12px; background-color: rgb(250, 250, 250);
+}
+pre.src {
+	background: rgb(12, 16, 33); margin: 0px; padding: 0em; border: 1px =
+solid rgb(85, 85, 85); width: 700px; text-align: left; color: rgb(247, =
+248, 198); line-height: 1.333; clear: none; font-size: 10pt; float: =
+none; overflow-x: auto; overflow-y: auto; min-height: 50px; max-height: =
+500px; min-width: 700px; max-width: 700px;
+}
+blockquote {
+	margin: 0px; padding: 1em; border: 1px solid rgb(85, 85, 85); width: =
+95%; text-align: left; line-height: 125%; clear: none; font-style: =
+italic; float: none; overflow-x: auto; overflow-y: auto; min-height: =
+20px; max-height: 300px; min-width: 700px; max-width: 700px; =
+background-color: rgb(250, 250, 250);
+}
+.org-function-name {
+	color: rgb(135, 206, 250); text-decoration: none; font-stretch: normal;
+}
+.org-keyword {
+	color: rgb(0, 255, 255); text-decoration: none;
+}
+.org-doc {
+	color: rgb(255, 160, 122); text-decoration: none;
+}
+p.author {
+	left: 10px; bottom: 40px; color: rgb(85, 107, 47); font-size: 80%; =
+font-style: italic; position: fixed;
+}
+p.date {
+	left: 10px; bottom: 0px; color: rgb(85, 107, 47); font-size: 80%; =
+font-style: italic; position: fixed;
+}
+p.creator {
+	left: 10px; bottom: 20px; color: rgb(85, 107, 47); font-size: 80%; =
+font-style: italic; position: fixed;
+}
+img {
+	border: currentColor; left: 10px; clear: none; float: none; display: =
+inline;
+}
+.share img {
+	filter: alpha(opacity=3D40); opacity: 0.4; -moz-opacity: .4;
+}
+.share img:hover {
+	filter: alpha(opacity=3D100); opacity: 1; -moz-opacity: 1;
+}
+.org-info-search-highlight {
+	color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(173, 239, =
+239);
+}
+.org-bbdb-company {
+	font-style: italic;
+}
+.org-bbdb-field-name {
+=09
+}
+.org-bbdb-field-value {
+=09
+}
+.org-bbdb-name {
+	text-decoration: underline;
+}
+.org-bold {
+	font-weight: bold;
+}
+.org-bold-italic {
+	font-style: italic; font-weight: bold;
+}
+.org-border {
+	background-color: rgb(0, 0, 0);
+}
+.org-buffer-menu-buffer {
+	font-weight: bold;
+}
+.org-builtin {
+	color: rgb(218, 112, 214);
+}
+.org-button {
+	text-decoration: underline;
+}
+.org-c-nonbreakable-space {
+	font-weight: bold; background-color: rgb(255, 0, 0);
+}
+.org-calendar-today {
+	text-decoration: underline;
+}
+.org-comment {
+	color: rgb(178, 34, 34);
+}
+.org-comment-delimiter {
+	color: rgb(178, 34, 34);
+}
+.org-constant {
+	color: rgb(95, 158, 160);
+}
+.org-cursor {
+	background-color: rgb(0, 0, 0);
+}
+.org-default {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.org-diary {
+	color: rgb(255, 0, 0);
+}
+.org-escape-glyph {
+	color: rgb(165, 42, 42);
+}
+.org-file-name-shadow {
+	color: rgb(127, 127, 127);
+}
+.org-fixed-pitch {
+=09
+}
+.org-fringe {
+	background-color: rgb(242, 242, 242);
+}
+.org-header-line {
+	color: rgb(51, 51, 51); background-color: rgb(229, 229, 229);
+}
+.org-help-argument-name {
+	font-style: italic;
+}
+.org-highlight {
+	background-color: rgb(180, 238, 180);
+}
+.org-holiday {
+	background-color: rgb(255, 192, 203);
+}
+.org-info-header-node {
+	color: rgb(165, 42, 42); font-style: italic; font-weight: bold;
+}
+.org-info-header-xref {
+	color: rgb(0, 0, 255); text-decoration: underline;
+}
+.org-info-menu-header {
+	font-weight: bold;
+}
+.org-info-menu-star {
+	color: rgb(255, 0, 0);
+}
+.org-info-node {
+	color: rgb(165, 42, 42); font-style: italic; font-weight: bold;
+}
+.org-info-title-1 {
+	font-size: 172%; font-weight: bold;
+}
+.org-info-title-2 {
+	font-size: 144%; font-weight: bold;
+}
+.org-info-title-3 {
+	font-size: 120%; font-weight: bold;
+}
+.org-info-title-4 {
+	font-weight: bold;
+}
+.org-info-xref {
+	color: rgb(0, 0, 255); text-decoration: underline;
+}
+.org-isearch {
+	color: rgb(176, 226, 255); background-color: rgb(205, 0, 205);
+}
+.org-italic {
+	font-style: italic;
+}
+.org-lazy-highlight {
+	background-color: rgb(175, 238, 238);
+}
+.org-link {
+	color: rgb(0, 0, 255); text-decoration: underline;
+}
+.org-link-visited {
+	color: rgb(139, 0, 139); text-decoration: underline;
+}
+.org-match {
+	background-color: rgb(255, 255, 0);
+}
+.org-menu {
+=09
+}
+.org-message-cited-text {
+	color: rgb(255, 0, 0);
+}
+.org-message-header-cc {
+	color: rgb(25, 25, 112);
+}
+.org-message-header-name {
+	color: rgb(100, 149, 237);
+}
+.org-message-header-newsgroups {
+	color: rgb(0, 0, 139); font-style: italic; font-weight: bold;
+}
+.org-message-header-other {
+	color: rgb(70, 130, 180);
+}
+.org-message-header-subject {
+	color: rgb(0, 0, 128); font-weight: bold;
+}
+.org-message-header-to {
+	color: rgb(25, 25, 112); font-weight: bold;
+}
+.org-message-header-xheader {
+	color: rgb(0, 0, 255);
+}
+.org-message-mml {
+	color: rgb(34, 139, 34);
+}
+.org-message-separator {
+	color: rgb(165, 42, 42);
+}
+.org-minibuffer-prompt {
+	color: rgb(0, 0, 205);
+}
+.org-mm-uu-extract {
+	color: rgb(0, 100, 0); background-color: rgb(255, 255, 224);
+}
+.org-mode-line {
+	color: rgb(0, 0, 0); background-color: rgb(191, 191, 191);
+}
+.org-mode-line-buffer-id {
+	font-weight: bold;
+}
+.org-mode-line-highlight {
+=09
+}
+.org-mode-line-inactive {
+	color: rgb(51, 51, 51); background-color: rgb(229, 229, 229);
+}
+.org-mouse {
+	background-color: rgb(0, 0, 0);
+}
+.org-negation-char {
+=09
+}
+.org-next-error {
+	background-color: rgb(238, 220, 130);
+}
+.org-nobreak-space {
+	color: rgb(165, 42, 42); text-decoration: underline;
+}
+.org-org-agenda-date {
+	color: rgb(0, 0, 255);
+}
+.org-org-agenda-date-weekend {
+	color: rgb(0, 0, 255); font-weight: bold;
+}
+.org-org-agenda-restriction-lock {
+	background-color: rgb(255, 255, 0);
+}
+.org-org-agenda-structure {
+	color: rgb(0, 0, 255);
+}
+.org-org-archived {
+	color: rgb(127, 127, 127);
+}
+.org-org-code {
+	color: rgb(127, 127, 127);
+}
+.org-org-column {
+	background-color: rgb(229, 229, 229);
+}
+.org-org-column-title {
+	font-weight: bold; text-decoration: underline; background-color: =
+rgb(229, 229, 229);
+}
+.org-org-date {
+	color: rgb(160, 32, 240); text-decoration: underline;
+}
+.org-org-done {
+	color: rgb(34, 139, 34); font-weight: bold;
+}
+.org-org-drawer {
+	color: rgb(0, 0, 255);
+}
+.org-org-ellipsis {
+	color: rgb(184, 134, 11); text-decoration: underline;
+}
+.org-org-formula {
+	color: rgb(178, 34, 34);
+}
+.org-org-headline-done {
+	color: rgb(188, 143, 143);
+}
+.org-org-hide {
+	color: rgb(229, 229, 229);
+}
+.org-org-latex-and-export-specials {
+	color: rgb(139, 69, 19);
+}
+.org-org-level-1 {
+	color: rgb(0, 0, 255);
+}
+.org-org-level-2 {
+	color: rgb(184, 134, 11);
+}
+.org-org-level-3 {
+	color: rgb(160, 32, 240);
+}
+.org-org-level-4 {
+	color: rgb(178, 34, 34);
+}
+.org-org-level-5 {
+	color: rgb(34, 139, 34);
+}
+.org-org-level-6 {
+	color: rgb(95, 158, 160);
+}
+.org-org-level-7 {
+	color: rgb(218, 112, 214);
+}
+.org-org-level-8 {
+	color: rgb(188, 143, 143);
+}
+.org-org-link {
+	color: rgb(160, 32, 240); text-decoration: underline;
+}
+.org-org-property-value {
+=09
+}
+.org-org-scheduled-previously {
+	color: rgb(178, 34, 34);
+}
+.org-org-scheduled-today {
+	color: rgb(0, 100, 0);
+}
+.org-org-sexp-date {
+	color: rgb(160, 32, 240);
+}
+.org-org-special-keyword {
+	color: rgb(188, 143, 143);
+}
+.org-org-table {
+	color: rgb(0, 0, 255);
+}
+.org-org-tag {
+	font-weight: bold;
+}
+.org-org-target {
+	text-decoration: underline;
+}
+.org-org-time-grid {
+	color: rgb(184, 134, 11);
+}
+.org-org-todo {
+	color: rgb(255, 0, 0);
+}
+.org-org-upcoming-deadline {
+	color: rgb(178, 34, 34);
+}
+.org-org-verbatim {
+	color: rgb(127, 127, 127); text-decoration: underline;
+}
+.org-org-warning {
+	color: rgb(255, 0, 0); font-weight: bold;
+}
+.org-outline-1 {
+	color: rgb(0, 0, 255);
+}
+.org-outline-2 {
+	color: rgb(184, 134, 11);
+}
+.org-outline-3 {
+	color: rgb(160, 32, 240);
+}
+.org-outline-4 {
+	color: rgb(178, 34, 34);
+}
+.org-outline-5 {
+	color: rgb(34, 139, 34);
+}
+.org-outline-6 {
+	color: rgb(95, 158, 160);
+}
+.org-outline-7 {
+	color: rgb(218, 112, 214);
+}
+.org-outline-8 {
+	color: rgb(188, 143, 143);
+}
+.org-preprocessor {
+	color: rgb(218, 112, 214);
+}
+.org-query-replace {
+	color: rgb(176, 226, 255); background-color: rgb(205, 0, 205);
+}
+.org-regexp-grouping-backslash {
+	font-weight: bold;
+}
+.org-regexp-grouping-construct {
+	font-weight: bold;
+}
+.org-region {
+	background-color: rgb(238, 220, 130);
+}
+.org-rmail-highlight {
+=09
+}
+.org-scroll-bar {
+	background-color: rgb(191, 191, 191);
+}
+.org-secondary-selection {
+	background-color: rgb(255, 255, 0);
+}
+.org-shadow {
+	color: rgb(127, 127, 127);
+}
+.org-show-paren-match {
+	background-color: rgb(64, 224, 208);
+}
+.org-show-paren-mismatch {
+	color: rgb(255, 255, 255); background-color: rgb(160, 32, 240);
+}
+.org-string {
+	color: rgb(188, 143, 143);
+}
+.org-texinfo-heading {
+	color: rgb(0, 0, 255);
+}
+.org-tool-bar {
+	color: rgb(0, 0, 0); background-color: rgb(191, 191, 191);
+}
+.org-tooltip {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 224);
+}
+.org-trailing-whitespace {
+	background-color: rgb(255, 0, 0);
+}
+.org-type {
+	color: rgb(34, 139, 34);
+}
+.org-underline {
+	text-decoration: underline;
+}
+.org-variable-name {
+	color: rgb(184, 134, 11);
+}
+.org-variable-pitch {
+=09
+}
+.org-vertical-border {
+=09
+}
+.org-warning {
+	color: rgb(255, 0, 0); font-weight: bold;
+}
+.logo-link {
+	left: 30px; top: 10px; position: fixed;
+}
+* html {
+	margin: 0px; overflow: hidden; padding-bottom: 0px;
+}
+* html body {
+	margin: 0px 0px 0px 250px; padding: 0px 10% 0px 0px; height: 100%; =
+overflow: auto; font-size: 100%;
+}
+* html #table-of-contents {
+	width: 200px; position: absolute;
+}
+* html #org-div-home-and-up {
+	width: 200px; right: 25px; position: absolute;
+}
+* html #org-src {
+	width: 25px; right: 20px; position: absolute;
+}
+* html #htmlized-src {
+	width: 120px; right: 20px; position: absolute;
+}
+* html p.author {
+	left: 20px; width: 125px; position: absolute;
+}
+* html p.date {
+	left: 20px; width: 225px; bottom: 0px; position: absolute;
+}
+* html p.creator {
+	left: 20px; width: 425px; bottom: 20px; position: absolute;
+}
+* html h1 {
+	margin-top: 10px;
+}
+* html .logo-link {
+	left: 30px; top: 10px; position: absolute;
+}
+* html #logo-text {
+	right: 10px; bottom: 3px; overflow: hidden; font-size: 75%; display: =
+block; position: absolute;
+}
+* html div#tags {
+	top: 10%; width: 150px; right: -2px; font-size: 75%; display: block; =
+position: absolute; max-height: 95%;
+}
+
+------=_NextPart_000_0000_01CDD599.AFC888C0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: 7bit
+Content-Location: http://jixiuf.github.com/js/emacs.js
+
+ <!--/*--><![CDATA[/*><!--*/
+function CodeHighlightOn(elem, id)
+{
+    var target = document.getElementById(id);
+    if(null != target) {
+        elem.cacheClassElem = elem.className;
+        elem.cacheClassTarget = target.className;
+        target.className = "code-highlighted";
+        elem.className   = "code-highlighted";
+    }
+}
+function CodeHighlightOff(elem, id)
+{
+    var target = document.getElementById(id);
+    if(elem.cacheClassElem)
+        elem.className = elem.cacheClassElem;
+    if(elem.cacheClassTarget)
+        target.className = elem.cacheClassTarget;
+}
+/*]]>*///-->
+
+
+------=_NextPart_000_0000_01CDD599.AFC888C0--
