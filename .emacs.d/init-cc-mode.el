@@ -27,6 +27,7 @@
 			 (arglist-close . c-lineup-arglist)   ;参数的结束括号
 			 (inline-open . 0)           ;类里面内联的开始的括号
 			 (brace-list-open . +)       ;枚举和静态变量列表开始的括号
+			 (inextern-lang . 0)
 			 (topmost-intro . 0)         ;top-level 表达示的第一行
 			 (topmost-intro-cont         ;是topmost-intro 的continuation(继续)
 			  . (first c-lineup-topmost-intro-cont
