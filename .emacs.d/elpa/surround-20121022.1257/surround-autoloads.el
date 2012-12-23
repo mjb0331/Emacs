@@ -5,7 +5,7 @@
 
 ;;;### (autoloads (global-surround-mode turn-off-surround-mode turn-on-surround-mode
 ;;;;;;  surround-mode surround-change surround-delete) "surround"
-;;;;;;  "surround.el" (20675 15444))
+;;;;;;  "surround.el" (20695 2552))
 ;;; Generated autoloads from surround.el
 
 (autoload 'surround-delete "surround" "\
@@ -62,7 +62,7 @@ See `surround-mode' for more information on Surround mode.
 
 ;;;***
 
-;;;### (autoloads nil nil ("surround-pkg.el") (20675 15444 931000))
+;;;### (autoloads nil nil ("surround-pkg.el") (20695 2552 967000))
 
 ;;;***
 

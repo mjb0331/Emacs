@@ -39,12 +39,12 @@
 (require 'init-evil) ; use evil mode (vi key binding)
 (require 'init-ctags)
 ;;(require 'init-windows)
-;;(require 'init-sessions)
+(require 'init-sessions)
 (require 'init-fonts)
 ;;(require 'init-mmm)
 ;;(require 'init-growl)
 
-;;(require 'init-editing-utils)
+(require 'init-editing-utils)
 
 ;;(require 'init-darcs)
 ;;(require 'init-git)
@@ -66,10 +66,10 @@
 ;;(require 'init-ruby-mode)
 ;;(require 'init-rails)
 
-;;(require 'init-lisp)
+(require 'init-lisp)
 ;;(require 'init-slime)
 ;;(require 'init-clojure)
-;;(require 'init-common-lisp)
+(require 'init-common-lisp)
 
 ;;(when *spell-check-support-enabled*
 ;;  (require 'init-spelling))
