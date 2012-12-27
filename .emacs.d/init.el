@@ -76,6 +76,7 @@
 
 (require 'init-marmalade)
 ;;(require 'init-misc)
+(require 'init-ecb)
 
 
 ;;----------------------------------------------------------------------------
