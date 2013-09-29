@@ -3152,6 +3152,6 @@ Here's a summary of the key bindings:
   )
 
 
-(provide 'vbnet-mode)
+(provide 'init-vbnet-mode)
 
 ;;; vbnet-mode.el ends here

@@ -57,6 +57,7 @@
 ;;(require 'init-javascript)
 ;;(require 'init-sh)
 ;;(require 'init-php)
+(require 'init-vbnet-mode)
 (require 'init-org)
 ;;(require 'init-nxml)
 ;;(require 'init-css)
