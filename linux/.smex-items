@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ w32-restore-frame
+ browse-url-w3
+ browse-url-xdg-open
+ browse-url
+ cd
+ mf
+ ri
+)
+
+;; ----- smex-data -----
+(
+ (browse-url-w3 . 4)
+ (browse-url . 1)
+ (browse-url-xdg-open . 1)
+ (w32-restore-frame . 3)
+)
